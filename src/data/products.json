@@ -1,0 +1,231 @@
+{
+  "_kaynak": "https://www.callula.com.tr ürün sayfaları (productDetailModel + Ürün Özellikleri sekmesi), 06.10.2026. Metinler birebir korunmuştur.",
+  "categories": [
+    { "slug": "kremler", "name": "Kremler", "single": "Krem", "image": "yuz-kremi-4942-8", "focus": "50% 45%" },
+    { "slug": "serumlar", "name": "Serumlar", "single": "Serum", "image": "nemlendirici-serum-f-9425", "focus": "50% 35%" },
+    { "slug": "yuztemizleme", "name": "Yüz Temizleme", "single": "Yüz temizleme", "image": "yuz-temizleme-kopugu-063-4b", "focus": "50% 50%" },
+    { "slug": "setler", "name": "Setler", "single": "Set", "image": "dortlu-set-8aa-9a", "focus": "40% 50%" }
+  ],
+  "products": [
+    {
+      "id": 22,
+      "slug": "yuz-kremi2",
+      "name": "Yüz Kremi",
+      "category": "kremler",
+      "stockCode": "003",
+      "barcode": "8682520195637",
+      "gtin13": "8682520195637",
+      "price": 900.0,
+      "listPrice": 1800.0,
+      "vatNote": "KDV Dahil",
+      "inStock": true,
+      "card": "yuz-kremi-68c036",
+      "hover": "yuz-kremi-bc1-4c",
+      "images": ["yuz-kremi-bc1-4c", "yuz-kremi-4942-8", "yuz-kremi-68c036", "yuz-kremi-4b9f60", "yuz-kremi-44112c", "yuz-kremi-d7197a", "yuz-kremi-cda62"],
+      "tags": ["krem", "yüz", "nemlendirici"],
+      "lead": "İlk uygulamadan itibaren cilt yoğun bir şekilde nemlenir, tazelenir ve ışıldar.",
+      "sections": [
+        {
+          "title": "Yüz Kremi",
+          "benefits": [
+            "İlk uygulamadan itibaren cilt yoğun bir şekilde nemlenir, tazelenir ve ışıldar.",
+            "Kolajen ve hyaluronic acid sayesinde İnce dehidrasyon çizgilerini azaltır.",
+            "Hyaluronic acid açısından zengin bir yapıya sahiptir ve ciltte ki suyun tutulmasını sağlar.",
+            "Cildin kendi iç su kaynağını aktive ederek suyu depolar, cildin tüm katmanlarına suyu yayar ve su kaybını önler.",
+            "Yoğun nemlendiren bakım kremi, cildi nemlendirir ve parlak bir görünüm verir. Ciltteki ince çizgileri azaltır, cildi rahatlatır. İlk uygulamadan itibaren cilt ferahlar ve nemlenir."
+          ]
+        }
+      ],
+      "usage": [],
+      "warnings": [],
+      "ingredients": "Aqua, Ethylhexyl Stearate, Xylitylqlucoside, Hydroxyethyl Acrlate/sodium Acrloyldimethyl Taurate Copolymer, Anhydroxylitol, Ethylhexylglycerin, Phenoxyethanol, Dimethiconol, Cylopentasiloxane, Isohexadecane, Xylitol, Niacinamide, Glycerin, Polysorbate60, Sorbitan Isostearate, Sodium Hyaluronate, Hydrolyzed Collagen, Sodium Chloride, Sodium Citrate.",
+      "contains": []
+    },
+    {
+      "id": 21,
+      "slug": "yuz-temizleme-kopugu",
+      "name": "Yüz Temizleme Köpüğü",
+      "category": "yuztemizleme",
+      "stockCode": "002",
+      "barcode": "8682520195590",
+      "gtin13": "8682520195590",
+      "price": 550.0,
+      "listPrice": 1100.0,
+      "vatNote": "KDV Dahil",
+      "inStock": true,
+      "card": "yuz-temizleme-kopugu-7eb4c2",
+      "hover": "yuz-temizleme-kopugu-fe13",
+      "images": ["yuz-temizleme-kopugu-fe13", "yuz-temizleme-kopugu-42a8-f", "yuz-temizleme-kopugu-063-4b", "yuz-temizleme-kopugu-9fb9", "yuz-temizleme-kopugu-a2-e34", "yuz-temizleme-kopugu-7eb4c2", "yuz-temizleme-kopugu-8d4aa6"],
+      "tags": [],
+      "lead": "Yüz Yıkama Köpüğü cildi nazikçe temizler ve canlandırır.",
+      "sections": [
+        {
+          "title": "Yüz Yıkama Köpüğü",
+          "benefits": [
+            "Yüz Yıkama Köpüğü cildi nazikçe temizler ve canlandırır. Başarılı bir şekilde makyaj temizleme yapar, yumuşak formülü cildi besler ve yumuşatır.",
+            "E vitaminleri ve hyaluronic acid açısından zengin bir kaynak olan yüz temizleme köpüğü temizleme sürecinde cildin nem dengesini korur, esnekliğini artırır ve kırışıklara karşı etki sağlar.",
+            "Panthenol'ün aktif cilt nemlendirici, yenileyici ve yumuşatıcı etkisi vardır, cildi yumuşatır ve yeniler.",
+            "Aktif bileşenleri sayesinde uv korumayı destekler ve cildinizi lekelenmeye karşı korur."
+          ]
+        }
+      ],
+      "usage": [],
+      "warnings": [],
+      "ingredients": "Aqua, Decyl Glucoside, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Glycerin, Glycereth-8, Panthenol, Peg-7 Olivate, Hyaluronic Acid, Sodium Benzoate, Potassium Sorbate, Allantoin, Pentylene Glycol, Tamarindus Indica Seed Gum, Tocopherol, Glucose",
+      "contains": []
+    },
+    {
+      "id": 20,
+      "slug": "cicaplast-krem",
+      "name": "Cicaplast Krem",
+      "category": "kremler",
+      "stockCode": "001",
+      "barcode": "8682520195576",
+      "gtin13": "8682520195576",
+      "price": 975.0,
+      "listPrice": 1950.0,
+      "vatNote": "KDV Dahil",
+      "inStock": true,
+      "card": "cicaplast-krem-450f-a",
+      "hover": "cicaplast-krem-a566-c",
+      "images": ["cicaplast-krem-a566-c", "cicaplast-krem-a41b-e", "cicaplast-krem-0d-045", "cicaplast-krem-34-eb1", "cicaplast-krem-18-48a", "cicaplast-krem-450f-a", "cicaplast-krem-a909-0"],
+      "tags": [],
+      "lead": "Zengin içeriği ve içerisinde bulunan değerli yağlar sayesinde cildinizin kaybetmiş olduğu nemi geri kazandırır.",
+      "sections": [
+        {
+          "title": "Cicaplast Krem",
+          "benefits": [
+            "Zengin içeriği ve içerisinde bulunan değerli yağlar sayesinde cildinizin kaybetmiş olduğu nemi geri kazandırır.",
+            "Formülde yer alan aktif maddeler hem nemlendirici hem de uvfiltre özelliği ile cildinizin tüm ihtiyacını karşılar.",
+            "Retinol ve niacinamide ile cilt bariyerini yatıştırır ve gözle görülür şekilde gözeneklerin küçülmesini sağlar.",
+            "Ciltte meydana gelen hasarı onarmak, yenilemek ve korumak için tasarlanmıştır.",
+            "Onarıcı nemlendirici bakım kremi güneş hasarı, kırışıklıklar, lekeler, çatlaklar, izleri ve diğer cilt rahatsızlıkları içinde kullanılabilir.",
+            "Ayrıca, anti-Aging özelliği sayesinde, cildin genç görünmesine katkı sağlar.",
+            "Etken madde olarak meyan kökü extresi kullanılmıştır. Meyan kökü ekstresi, içeriğindeki galibrin aktif bileşeni güçlü bir antioksidandır ve yatıştırıcı özelliğe sahiptir.",
+            "Hassas, kızarık ciltlere yönelik özel olarak formüle edilmiştir."
+          ]
+        }
+      ],
+      "usage": [],
+      "warnings": ["Hamilelik ve emzirme döneminde kullanmadan önce doktorunuza veya eczacınıza danışınız."],
+      "ingredients": "Aqua, Cetearyl Wheat Straw Glycosides, Cyclopentasiloxane, Caprylic/Capric Triglyceride, Cetearyl Alcohol, Sea Water, Dimethicone, Stearic Acid, Glyceryl Stearate, Glycereth-8, Propanediol, Peg-7 Olivate, Glycolic Acid, Pantenol, Phenoxyethanol, Ethylhexylglycerin, Glycerin, Porphyridıum Cruentum Extract, Potassium Cetyl Phosphate, Butyrospermum Parkii Butter, Niacinamide, Behenyl Alcohol, Glycyrrhiza Glabra Root, Undercylenoyl Phenylalanine, Salicylic Acid, Retinol.",
+      "contains": []
+    },
+    {
+      "id": 23,
+      "slug": "nemlendirici-serum",
+      "name": "Nemlendirici Serum",
+      "category": "serumlar",
+      "stockCode": "004",
+      "barcode": "8682520195569",
+      "gtin13": "8682520195569",
+      "price": 850.0,
+      "listPrice": 1700.0,
+      "vatNote": "KDV Dahil",
+      "inStock": true,
+      "card": "nemlendirici-serum-2e4466",
+      "hover": "nemlendirici-serum-423634",
+      "images": ["nemlendirici-serum-423634", "nemlendirici-serum-4683", "nemlendirici-serum-f-9425", "nemlendirici-serum-5a9825", "nemlendirici-serum-580a5f", "nemlendirici-serum-203-a7", "nemlendirici-serum-2e4466", "nemlendirici-serum-0f6fc9", "nemlendirici-serum-f785"],
+      "tags": [],
+      "lead": "Kolajen sayesinde cildin elastikiyetini geri kazandırmaya yardımcı olur.",
+      "sections": [
+        {
+          "title": "Nemlendirici Serum",
+          "benefits": [
+            "Kolajen sayesinde cildin elastikiyetini geri kazandırmaya yardımcı olur.",
+            "Ciltteki kırışıklıkların görünümünü azaltmayı destekler.",
+            "Yaşlanma belirtilerine karşı cildin güçlü bir savunma oluşturmasını destekleyici özelliktedir.",
+            "Hyaluronik Asit: Cilde nem çekmek için adeta bir sünger gibi çalışırken, cildin nem seviyesini destekler ve cildin ihtiyacı olan su miktarını koruyarak cildin gün boyu nemli kalmasına yardımcı olur.",
+            "Cildin tazelenmesini desteklerken cilt hücrelerinin yenilenmesini sağlar.",
+            "Kuruluk kaynaklı oluşan ince çizgi görünümünü gözle görülür şekilde dolgunlaştırarak azalmasına yardımcı olur."
+          ]
+        }
+      ],
+      "usage": [
+        "Gündüz ve gece olmak üzere günde iki defa birkaç damla şeklinde temiz ve kuru cildinize parmak uçlarınızla masaj yaparak uygulayınız.",
+        "Serumun cilt tarafından emilmesi için bir süre beklemeniz yeterlidir.",
+        "En iyi sonuç için düzenli kullanılmasını öneririz."
+      ],
+      "warnings": [],
+      "ingredients": "Aqua, Niacinamide, Ethylhexylglycerin, Citric Acid, Phenoxyethanol, Hyaluronic Acid, Glycerin, Xylıtylglucoside, Anhydroxylitol, Polyacrylate Crosspolymer-6, Xylitol, Sodium Hyaluronate, Sodium Chloride, Sodium Citrate.",
+      "contains": []
+    },
+    {
+      "id": 24,
+      "slug": "ikili-set",
+      "name": "Cicaplast Krem & Nemlendirici Serumu",
+      "menuName": "İkili Set",
+      "category": "setler",
+      "stockCode": "005",
+      "barcode": "8682520195637-8682520195637",
+      "gtin13": null,
+      "price": 1825.0,
+      "listPrice": 3650.0,
+      "vatNote": "KDV Dahil",
+      "inStock": true,
+      "card": "ikiliset-4f1-9e",
+      "hover": null,
+      "images": ["ikiliset-4f1-9e"],
+      "tags": [],
+      "lead": "Cicaplast Krem ve Nemlendirici Serum bir arada.",
+      "sections": [],
+      "usage": [],
+      "warnings": ["Hamilelik ve emzirme döneminde kullanmadan önce doktorunuza veya eczacınıza danışınız."],
+      "ingredients": null,
+      "contains": ["cicaplast-krem", "nemlendirici-serum"]
+    },
+    {
+      "id": 25,
+      "slug": "dortlu-set",
+      "name": "Muhteşem Dörtlü Set",
+      "menuName": "Dörtlü Set",
+      "category": "setler",
+      "stockCode": "006",
+      "barcode": "8682520(195590,195569,195637,195576)",
+      "gtin13": null,
+      "price": 3275.0,
+      "listPrice": 6550.0,
+      "vatNote": "KDV Dahil",
+      "inStock": true,
+      "card": "dortlu-set-8aa-9a",
+      "hover": null,
+      "images": ["dortlu-set-8aa-9a"],
+      "tags": [],
+      "lead": "Cicaplast Krem, Yüz Temizleme Köpüğü, Yüz Kremi ve Nemlendirici Serum bir arada.",
+      "sections": [],
+      "usage": [
+        "Gündüz ve gece olmak üzere günde iki defa birkaç damla şeklinde temiz ve kuru cildinize parmak uçlarınızla masaj yaparak uygulayınız.",
+        "Serumun cilt tarafından emilmesi için bir süre beklemeniz yeterlidir.",
+        "En iyi sonuç için düzenli kullanılmasını öneririz."
+      ],
+      "usageNote": "Nemlendirici Serum için",
+      "warnings": ["Hamilelik ve emzirme döneminde kullanmadan önce doktorunuza veya eczacınıza danışınız."],
+      "ingredients": null,
+      "contains": ["cicaplast-krem", "yuz-temizleme-kopugu", "yuz-kremi2", "nemlendirici-serum"]
+    },
+    {
+      "id": 29,
+      "slug": "nemlendirici-serum-ve-yuz-kremi",
+      "name": "Nemlendirici Serum Ve Yüz Kremi",
+      "category": null,
+      "stockCode": "009",
+      "barcode": "8682520/195637-195569",
+      "gtin13": null,
+      "price": 2100.0,
+      "listPrice": 4200.0,
+      "vatNote": "KDV Dahil",
+      "liveDisplay": "Canlı sitede ₺1.750,00 + KDV / ₺3.500,00 + KDV olarak gösteriliyor; KDV dahil tutar productPriceKDVIncluded = 2100.",
+      "inStock": true,
+      "card": "nemlendirici-serum-ve-yuz-kremi-e-4700",
+      "hover": null,
+      "images": ["nemlendirici-serum-ve-yuz-kremi-e-4700"],
+      "tags": [],
+      "lead": "Yüz Kremi ve Nemlendirici Serum bir arada.",
+      "sections": [],
+      "usage": [],
+      "warnings": [],
+      "ingredients": null,
+      "contains": ["yuz-kremi2", "nemlendirici-serum"]
+    }
+  ]
+}

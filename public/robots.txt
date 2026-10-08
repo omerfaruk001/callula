@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /sepet
+Disallow: /favoriler
+Disallow: /arama
+
+Sitemap: https://www.callula.com.tr/sitemap.xml
