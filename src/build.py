@@ -342,6 +342,8 @@ def page(path: str, title: str, desc: str, main: str, *, active: str = "", og_im
 {extra}
 <script type="application/json" id="catalog">{catalog_json()}</script>
 <script src="/assets/js/app.js?v={ASSET_V}" defer></script>
+<script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </body>
 </html>
 """
