@@ -394,23 +394,23 @@ ORG_LD = {
 
 # ---------------------------------------------------------------- ana sayfa
 INGREDIENTS = [
-    ("Hyaluronik asit", "Hyaluronic Acid, Sodium Hyaluronate", ("hyaluronic acid", "sodium hyaluronate")),
-    ("Niacinamide", "Niacinamide", ("niacinamide",)),
-    ("Kolajen", "Hydrolyzed Collagen", ("collagen",)),
-    ("Retinol", "Retinol", ("retinol",)),
-    ("Meyan kökü", "Glycyrrhiza Glabra Root", ("glycyrrhiza",)),
-    ("Panthenol", "Panthenol", ("panthenol", "pantenol")),
-    ("E vitamini", "Tocopherol", ("tocopherol",)),
-    ("Shea yağı", "Butyrospermum Parkii Butter", ("butyrospermum",)),
+    ("Hyaluronik asit", "Nemi tutar, cildi dolgun gösterir.", ("hyaluronic acid", "sodium hyaluronate")),
+    ("Niacinamide", "Cilt tonunu dengelemeye yardımcı olur.", ("niacinamide",)),
+    ("Kolajen", "Cildin esnekliğini destekler.", ("collagen",)),
+    ("Retinol", "Cilt yenilenmesini destekler.", ("retinol",)),
+    ("Meyan kökü", "Cildi yatıştırır.", ("glycyrrhiza",)),
+    ("Panthenol", "Nemlendirir, cildi yumuşatır.", ("panthenol", "pantenol")),
+    ("E vitamini", "Antioksidan; cildi korur.", ("tocopherol",)),
+    ("Shea yağı", "Besler, kuruluğa karşı korur.", ("butyrospermum",)),
 ]
 
 
 def ingredient_index() -> str:
     lis = []
-    for name, inci, keys in INGREDIENTS:
+    for name, role, keys in INGREDIENTS:
         found = [p for p in SINGLES if any(k in (p["ingredients"] or "").lower() for k in keys)]
         links = ", ".join(f'<a href="{url(p["slug"])}">{e(p["name"])}</a>' for p in found)
-        lis.append(f'<li><span class="nm">{name}</span><span class="inci">{inci}</span><span class="in">{links}</span></li>')
+        lis.append(f'<li><h3 class="nm">{name}</h3><p class="role">{role}</p><p class="in">{links}</p></li>')
     return "".join(lis)
 
 
@@ -514,11 +514,10 @@ def home() -> None:
   <ul class="set-more">{more}</ul>
 </section>
 
-<section class="section section--mist" aria-labelledby="icerikler">
+<section class="section section--mist section--tight" aria-labelledby="icerikler">
   <div class="wrap">
-    <div class="section-head"><h2 id="icerikler">İçerikler</h2></div>
+    <div class="section-head ingr-head"><h2 id="icerikler">İçerikler</h2><p class="note">Ürün etiketlerindeki öne çıkan içerikler. Tam listeler ürün sayfalarında.</p></div>
     <ul class="ingredients">{ingredient_index()}</ul>
-    <p class="note">Liste, ürün etiketlerinde yer alan içerik maddelerinden hazırlanmıştır. Tam içerik listeleri ürün sayfalarındadır.</p>
   </div>
 </section>
 
