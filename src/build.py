@@ -296,6 +296,14 @@ def footer() -> str:
     <div class="footer-brand">
       <img src="/assets/img/callula-logo-260.webp" srcset="/assets/img/callula-logo-260.webp 260w, /assets/img/callula-logo-520.webp 520w" sizes="168px" width="260" height="67" alt="Callula" loading="lazy">
       <p>Nazik, etkili ve güvenilir bakım.</p>
+      <address class="footer-contact">
+        <strong>Callula Kozmetik İthalat İhracat Ltd.Şti.</strong>
+        <span>Çenedağ Mah., Alçicek Sok. No:25/1<br>Derince, Kocaeli</span>
+        <span>Derince V.D. · 1950909929</span>
+        <span>WhatsApp: <a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">0530 202 34 53</a></span>
+        <span>E-posta: <a href="mailto:{EMAIL}">{EMAIL}</a></span>
+        <span>KEP: callulakozmetik@hs02.kep.tr</span>
+      </address>
     </div>
     <nav aria-labelledby="f-kurumsal"><h2 id="f-kurumsal">KURUMSAL</h2>
       <ul class="footer-links"><li><a href="/hakkimizda">Hakkımızda</a></li><li><a href="/adres-ve-iletisim">Adres ve İletişim</a></li></ul></nav>
@@ -322,6 +330,10 @@ def footer() -> str:
   <div class="wrap footer-bottom">
     <div class="secure"><span>İnternette güvenli alışveriş</span><img src="/assets/img/odeme-kartlari.png" width="118" height="30" alt="Mastercard ve Visa ile ödeme" loading="lazy"></div>
     <p>Copyright © 2024 Callula Kozmetik İthalat İhracat LTD.Şti. Tüm hakları saklıdır.</p>
+  </div>
+  <div class="footer-credit">
+    <p class="wrap">© {date.today().year} callula.tr · Tüm hakları saklıdır.</p>
+    <p class="wrap"><a href="https://ofasite.com" target="_blank" rel="noopener"><strong>OFA Nova</strong> | Medya Ajansı</a></p>
   </div>
 </footer>"""
 

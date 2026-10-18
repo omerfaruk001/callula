@@ -349,6 +349,10 @@ svg.i { width: 1.25em; height: 1.25em; flex: none; fill: currentColor; }
 .footer-top { display: grid; grid-template-columns: 1.3fr 1fr 1fr 0.8fr 1.6fr; gap: 40px; padding-block: 72px 56px; }
 .footer-brand img { width: 168px; }
 .footer-brand p { margin-top: 18px; font-size: var(--fs-sm); color: var(--ink-2); max-width: 28ch; }
+.footer-contact { display: grid; gap: 6px; margin-top: 20px; font-style: normal; font-size: var(--fs-xs); line-height: 1.6; color: var(--ink-2); }
+.footer-contact strong { font-weight: 500; color: var(--ink); }
+.footer-contact a { color: inherit; }
+.footer-contact a:hover { color: var(--ink); text-decoration: underline; }
 .site-footer h2 { font-size: var(--fs-xs); font-weight: 500; letter-spacing: 0.08em; margin-bottom: 16px; }
 .footer-links { list-style: none; display: grid; gap: 8px; }
 .footer-links a { font-size: var(--fs-sm); color: var(--ink-2); text-decoration: none; }
@@ -365,6 +369,12 @@ svg.i { width: 1.25em; height: 1.25em; flex: none; fill: currentColor; }
 .footer-bottom { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 32px; padding-block: 24px 32px; border-top: 1px solid var(--line); font-size: var(--fs-xs); color: var(--ink-2); }
 .secure { display: flex; align-items: center; gap: 14px; }
 .secure img { width: 118px; height: 30px; }
+.footer-credit { border-top: 1px solid var(--line); text-align: center; font-size: var(--fs-sm); color: var(--ink-2); }
+.footer-credit p { padding-block: 22px; }
+.footer-credit p + p { border-top: 1px solid var(--line); }
+.footer-credit a { color: inherit; text-decoration: none; }
+.footer-credit a:hover { color: var(--ink); text-decoration: underline; }
+.footer-credit strong { color: var(--ink); font-weight: 700; }
 
 /* ---------- Sayfa başlığı / breadcrumb ---------- */
 .crumbs { padding-block: 20px 0; font-size: var(--fs-xs); color: var(--ink-3); }
