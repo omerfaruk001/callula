@@ -27,6 +27,7 @@ SITE = "https://www.callula.com.tr"
 WHATSAPP = "905306513441"
 INSTAGRAM = "https://www.instagram.com/callulatr/"
 EMAIL = "info@callula.com.tr"
+GADS_ID = "AW-18495566441"
 ASSET_V = date.today().strftime("%Y%m%d")
 
 DATA = json.loads((ROOT / "src" / "data" / "products.json").read_text(encoding="utf-8"))
@@ -166,6 +167,15 @@ def head(path, title, desc, og_image, jsonld, noindex, og_type, preload):
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id={GADS_ID}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+
+  gtag('config', '{GADS_ID}');
+</script>
 <title>{e(title)}</title>
 <meta name="description" content="{e(desc)}">
 {robots}
