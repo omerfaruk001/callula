@@ -4,7 +4,7 @@
   "use strict";
 
   const CONFIG = {
-    whatsapp: "905302023453",
+    whatsapp: "905306513441",
     maxQty: 10,
   };
 
