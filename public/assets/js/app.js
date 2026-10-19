@@ -5,6 +5,7 @@
 
   const CONFIG = {
     whatsapp: "905306513441",
+    adsConversion: "AW-18495566441/gtzbCKi416IdEOnkr_NE",
     maxQty: 10,
   };
 
@@ -100,12 +101,27 @@
     });
   }
 
+  /* ---------- Google Ads: WhatsApp dönüşümü ---------- */
+  function trackWhatsApp() {
+    if (typeof window.gtag !== "function") return;
+    window.gtag("event", "conversion", {
+      send_to: CONFIG.adsConversion,
+      value: 1.0,
+      currency: "TRY",
+      transport_type: "beacon",
+    });
+  }
+  document.addEventListener("click", (ev) => {
+    if (ev.target.closest('a[href*="wa.me"], a[href*="whatsapp"]')) trackWhatsApp();
+  });
+
   function checkout() {
     const items = cart.items();
     if (!items.length) return;
     const t = cart.totals();
     const lines = items.map((x) => `- ${CATALOG[x.s].n} x ${x.q} = ${tl(CATALOG[x.s].p * x.q)}`);
     const msg = ["Merhaba, aşağıdaki ürünleri sipariş vermek istiyorum:", ...lines, `Toplam (KDV dahil): ${tl(t.sub)}`].join("\n");
+    trackWhatsApp();
     window.open(`https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(msg)}`, "_blank", "noopener");
   }
 
