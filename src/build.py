@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PUB = ROOT / "public"
 CONTENT = ROOT / "src" / "content"
 SITE = "https://www.callula.com.tr"
-WHATSAPP = "905302023453"
+WHATSAPP = "905306513441"
 INSTAGRAM = "https://www.instagram.com/callulatr/"
 EMAIL = "info@callula.com.tr"
 ASSET_V = date.today().strftime("%Y%m%d")
@@ -300,7 +300,7 @@ def footer() -> str:
         <strong>Callula Kozmetik İthalat İhracat Ltd.Şti.</strong>
         <span>Çenedağ Mah., Alçicek Sok. No:25/1<br>Derince, Kocaeli</span>
         <span>Derince V.D. · 1950909929</span>
-        <span>WhatsApp: <a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">0530 202 34 53</a></span>
+        <span>WhatsApp: <a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">0530 651 34 41</a></span>
         <span>E-posta: <a href="mailto:{EMAIL}">{EMAIL}</a></span>
         <span>KEP: callulakozmetik@hs02.kep.tr</span>
       </address>
@@ -395,7 +395,7 @@ ORG_LD = {
     "url": SITE,
     "logo": f"{SITE}/assets/img/callula-logo-520.png",
     "email": EMAIL,
-    "telephone": "+90 530 202 34 53",
+    "telephone": "+90 530 651 34 41",
     "sameAs": [INSTAGRAM],
     "address": {
         "@type": "PostalAddress", "streetAddress": "Çenedağ Mah., Alçicek Sok. No:25/1",
@@ -844,7 +844,7 @@ def contact() -> None:
 <div class="wrap page-head"><h1>Adres ve İletişim</h1></div>
 <div class="wrap contact">
   <dl class="contact-list">
-    <div><dt>WHATSAPP</dt><dd><a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">0530 202 34 53</a></dd></div>
+    <div><dt>WHATSAPP</dt><dd><a href="https://wa.me/{WHATSAPP}" rel="noopener" target="_blank">0530 651 34 41</a></dd></div>
     <div><dt>E-POSTA</dt><dd><a href="mailto:{EMAIL}">{EMAIL}</a></dd></div>
     <div><dt>ADRES</dt><dd>Callula Kozmetik İthalat İhracat Ltd.Şti.<br>Çenedağ Mah., Alçicek Sok. No:25/1<br>Derince, Kocaeli</dd></div>
     <div><dt>VERGİ BİLGİLERİ</dt><dd>Derince Vergi Dairesi<br>1950909929</dd></div>
@@ -854,7 +854,7 @@ def contact() -> None:
   <div class="contact-media">{img('title-80b9f272-8', 'Callula ürünleri dizüstü bilgisayar ve gözlükle', '(max-width: 759px) 100vw, 55vw', lazy=False)}</div>
 </div>"""
     write("/adres-ve-iletisim", page("/adres-ve-iletisim", "Adres ve İletişim | Callula",
-                                     "Callula Kozmetik iletişim bilgileri: WhatsApp 0530 202 34 53, info@callula.com.tr, Çenedağ Mah. Alçicek Sok. No:25/1 Derince, Kocaeli.",
+                                     "Callula Kozmetik iletişim bilgileri: WhatsApp 0530 651 34 41, info@callula.com.tr, Çenedağ Mah. Alçicek Sok. No:25/1 Derince, Kocaeli.",
                                      main, active="iletisim", jsonld=[crumb_ld, ORG_LD]))
     # Eski bozuk linkler için yönlendirme
     for old in ("Iletisim", "iletisim"):
