@@ -416,14 +416,14 @@ ORG_LD = {
 
 # ---------------------------------------------------------------- ana sayfa
 INGREDIENTS = [
-    ("Hyaluronik asit", "Nemi tutar, cildi dolgun gösterir.", ("hyaluronic acid", "sodium hyaluronate")),
-    ("Niacinamide", "Cilt tonunu dengelemeye yardımcı olur.", ("niacinamide",)),
-    ("Kolajen", "Cildin esnekliğini destekler.", ("collagen",)),
+    ("Hiyalüronik asit", "Nemi tutar, cildi dolgun gösterir.", ("hiyalüronik asit", "sodyum hiyalüronat")),
+    ("Niasinamid", "Cilt tonunu dengelemeye yardımcı olur.", ("niasinamid",)),
+    ("Kolajen", "Cildin esnekliğini destekler.", ("kolajen",)),
     ("Retinol", "Cilt yenilenmesini destekler.", ("retinol",)),
-    ("Meyan kökü", "Cildi yatıştırır.", ("glycyrrhiza",)),
-    ("Panthenol", "Nemlendirir, cildi yumuşatır.", ("panthenol", "pantenol")),
-    ("E vitamini", "Antioksidan; cildi korur.", ("tocopherol",)),
-    ("Shea yağı", "Besler, kuruluğa karşı korur.", ("butyrospermum",)),
+    ("Meyan kökü", "Cildi yatıştırır.", ("meyan kökü",)),
+    ("Pantenol", "Nemlendirir, cildi yumuşatır.", ("pantenol",)),
+    ("E vitamini", "Antioksidan; cildi korur.", ("tokoferol",)),
+    ("Shea yağı", "Besler, kuruluğa karşı korur.", ("shea yağı",)),
 ]
 
 
